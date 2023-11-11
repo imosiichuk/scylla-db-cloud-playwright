@@ -25,7 +25,7 @@ npx playwright install
 
 To be able to execute tests you should add your user credentials to `tests\data\login-data.json` file. Please remember to remove your credentials before pushing to this repository! Or you can add this file to `.gitignore` to avoid any security issues.
 
-**Run tests in UI mode**
+### Run tests in UI mode
 
 Chrome browser is used for the test execution. Other browsers could be added by changing the `playwright.config.ts` file.
 
@@ -35,7 +35,7 @@ npx playwright test --ui
 ```
 Upon successful completion of this command, the Playwright window launches. You can run each test file one by one by clicking on the file name in the Playwright window or just click the "Run all specs" button.
 
-**Run tests in terminal**
+### Run tests in terminal
 
 To open tests on your machine run command from `scylla-db-cloud-playwright` directory.
 ```shell
