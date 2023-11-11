@@ -53,17 +53,22 @@ npx playwright test --reporter=list
 ### Adding tests
 
 **Page objects**
+
 All locators and methods for particular pages or components are stored in `tests\pages` following the [Page Object models Patern](https://playwright.dev/docs/pom). 
 
 **Fixtures**
+
 Furthermore, the framework Playwright Test is based on the concept of [test fixtures](https://playwright.dev/docs/test-fixtures). Test fixtures are used to establish environment for each test, giving the test everything it needs and nothing else. Test fixtures are isolated between tests. To add a new fixture to the framework use `fixtures\fixture` folder. `apiStorageStateFixture` is used for loggin user into the system using the API calls.
 
 **Data**
+
 You can save the data needed for the tests inside `tests\data` folder. The example of such approach could be viewed in `tests\data\clusterRegionAndPrice.ts` and `tests\specs\newCluster.spec.ts`files. It allows us to easialy change the data without changing the existing tests files.
 
 **Tests**
+
 Tests should be added to the `tests\specs` folder with appropriate name `tests\specs\${testName}.spec.ts`.
 
 
-**Open Questions**
+### Open Questions
+
 💡 If you have questions, feel free to post them on [github](https://github.com/imosiichuk/scylla-db-cloud-playwright/issues).
