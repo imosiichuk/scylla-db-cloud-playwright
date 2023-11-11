@@ -26,7 +26,7 @@ npx playwright install
 To be able to execute tests you should add your user credentials to `tests\data\login-data.json` file. Please remember to remove your credentials before pushing to this repository! Or you can add this file to `.gitignore` to avoid any security issues.
 
 
-<br>________________________________________________________________________________________________________________________<br>
+<br>_________________________________________________________________________________________________<br>
 
 
 ### Run tests in UI mode
