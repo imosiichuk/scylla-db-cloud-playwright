@@ -26,9 +26,6 @@ npx playwright install
 To be able to execute tests you should add your user credentials to `tests\data\login-data.json` file. Please remember to remove your credentials before pushing to this repository! Or you can add this file to `.gitignore` to avoid any security issues.
 
 
-<br>_________________________________________________________________________________________________<br>
-
-
 ### Run tests in UI mode
 
 Chrome browser is used for the test execution. Other browsers could be added by changing the `playwright.config.ts` file.
@@ -54,9 +51,6 @@ You can run tests and see results directly in your console by running the next c
 npx playwright test --reporter=list
 ```
 
-<br>________________________________________________________________________________________________________________________<br>
-
-
 ### Adding tests
 
 **Page objects**
@@ -74,10 +68,6 @@ You can save the data needed for the tests inside `tests\data` folder. The examp
 **Tests**
 
 Tests should be added to the `tests\specs` folder with appropriate name `tests\specs\${testName}.spec.ts`.
-
-
-<br>________________________________________________________________________________________________________________________<br>
-
 
 ### Open Questions
 
