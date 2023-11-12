@@ -22,7 +22,7 @@ export const test = base.extend<MyFixtures>({
         const page = await browser.newPage({ storageState: undefined });
         //!! do login
         const authData = getAuthData();
-        await page.goto("/account/login");
+        await page.goto("https://cloud.scylladb.com/login");
         await page.locator(`[data-test-id="input-email"]`).fill(authData.email);
         await page.locator('[data-test-id="submit-btn"]').click();
         await page
