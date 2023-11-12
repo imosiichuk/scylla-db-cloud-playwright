@@ -1,5 +1,5 @@
 import { NewClusterPage } from "../pages/newClusterPage";
-import { test } from "../fixtures/apiStorageStateFixture";
+import { test } from "../fixtures/apiLoginFixture";
 import priceAndRegion from "../data/clusterRegionAndPrice";
 
 test.use({});
