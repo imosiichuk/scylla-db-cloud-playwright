@@ -63,7 +63,7 @@ Furthermore, the framework Playwright Test is based on the concept of [test fixt
 
 **Data**
 
-You can save the data needed for the tests inside `tests\data` folder. The example of such approach could be viewed in `tests\data\clusterRegionAndPrice.ts` and `tests\specs\newCluster.spec.ts`files. It allows us to easialy change the data without changing the existing tests files.
+You can save the data needed for the tests inside `tests\data` folder. The example of such approach could be viewed in `tests\data\clusterRegionAndPrice.ts` and `tests\specs\newCluster.spec.ts` files. It allows us to easialy change the data without changing the existing tests files.
 
 **Tests**
 
